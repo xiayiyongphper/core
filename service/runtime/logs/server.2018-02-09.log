@@ -1,0 +1,7 @@
+[2018-02-09 17:05:48] MasterPid=16637|Manager_pid=16638
+[2018-02-09 17:05:48] Server: start.Swoole version is [1.8.4]
+[2018-02-09 17:05:48] onManagerStart-16638
+[2018-02-09 18:33:33] Worker stop:3
+[2018-02-09 18:33:33] Worker stop:2
+[2018-02-09 18:33:33] Worker stop:5
+[2018-02-09 18:33:33] Worker stop:4

@@ -1,0 +1,44 @@
+[2017-12-28 19:38:29] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 2, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:39:35] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:40:12] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:41:25] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}

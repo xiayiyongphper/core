@@ -1,0 +1,81 @@
+[2017-12-29 14:10:36] MasterPid=11487|Manager_pid=11488
+[2017-12-29 14:10:36] Server: start.Swoole version is [1.8.4]
+[2017-12-29 14:10:36] onManagerStart-11488
+[2017-12-29 18:03:36] Client:Connect. client id: 1
+[2017-12-29 18:03:36] Client: Close.
+[2017-12-29 18:04:54] Client:Connect. client id: 2
+[2017-12-29 18:04:54] core_5a461346d53c7185115236
+[2017-12-29 18:04:54] Exception: 用户信息已过期，请重新登陆！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(45): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\x03\x12\x10C2SxjXUUaHD...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\x03\x12\x10C2SxjXUUaHD...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-29 18:04:54] Task#0 finished
+[2017-12-29 18:04:56] Client: Close.
+[2017-12-29 18:06:03] MasterPid=15112|Manager_pid=15113
+[2017-12-29 18:06:03] Server: start.Swoole version is [1.8.4]
+[2017-12-29 18:06:03] onManagerStart-15113
+[2017-12-29 18:06:28] Client:Connect. client id: 1
+[2017-12-29 18:06:28] core_5a4613a4bd97d003205414
+[2017-12-29 18:06:28] Task#0 finished
+[2017-12-29 18:06:30] Client: Close.
+[2017-12-29 18:06:54] Client:Connect. client id: 2
+[2017-12-29 18:06:54] core_5a4613be5fd2f520388386
+[2017-12-29 18:06:54] Task#1 finished
+[2017-12-29 18:06:58] Client: Close.
+[2017-12-29 18:07:25] Client:Connect. client id: 3
+[2017-12-29 18:07:25] core_5a4613dd41488798052722
+[2017-12-29 18:07:25] Task#2 finished
+[2017-12-29 18:07:27] Client: Close.
+[2017-12-29 18:10:58] MasterPid=15424|Manager_pid=15425
+[2017-12-29 18:10:58] Server: start.Swoole version is [1.8.4]
+[2017-12-29 18:10:58] onManagerStart-15425
+[2017-12-29 18:11:02] Client:Connect. client id: 1
+[2017-12-29 18:11:02] core_5a4614b63b330971196275
+[2017-12-29 18:11:02] Task#0 finished
+[2017-12-29 18:11:03] Client: Close.
+[2017-12-29 18:12:06] Client:Connect. client id: 2
+[2017-12-29 18:12:06] core_5a4614f6dee48317096342
+[2017-12-29 18:12:07] Task#1 finished
+[2017-12-29 18:12:08] Client: Close.
+[2017-12-29 18:15:27] Client:Connect. client id: 3
+[2017-12-29 18:15:27] core_5a4615bf82b77221612398
+[2017-12-29 18:15:27] Task#2 finished
+[2017-12-29 18:15:29] Client: Close.
+[2017-12-29 19:05:45] Client:Connect. client id: 4
+[2017-12-29 19:05:45] core_5a462189b5e85869417277
+[2017-12-29 19:05:45] Exception: 用户信息已过期，请重新登陆！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(45): service\resources\ResourceAbstract->_initContractor(3, 'KllYrd4rZiFesoU...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\x03\x12\x10KllYrd4rZiF...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\x03\x12\x10KllYrd4rZiF...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 3, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-29 19:05:45] Task#3 finished
+[2017-12-29 19:05:47] Client: Close.
+[2017-12-29 19:11:06] Client:Connect. client id: 5
+[2017-12-29 19:11:06] core_5a4622ca5c8c1360432254
+[2017-12-29 19:11:06] Task#4 finished
+[2017-12-29 19:11:07] Client: Close.
+[2017-12-29 19:11:19] Client:Connect. client id: 6
+[2017-12-29 19:11:19] core_5a4622d79ad6f619085942
+[2017-12-29 19:11:19] Task#5 finished
+[2017-12-29 19:11:21] Client: Close.
+[2017-12-29 19:29:36] Worker stop:4
+[2017-12-29 19:29:36] Worker stop:2
+[2017-12-29 19:29:36] Worker stop:3
+[2017-12-29 19:29:36] Worker stop:5
+[2017-12-29 19:29:36] Worker stop:1
+[2017-12-29 19:29:36] Worker stop:0
+[2017-12-29 19:29:36] onManagerStop
+[2017-12-29 19:29:36] Server shutdown

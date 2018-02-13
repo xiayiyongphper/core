@@ -1,0 +1,535 @@
+[2017-12-28 19:38:15] Client:Connect. client id: 35
+[2017-12-28 19:38:15] Client: Close.
+[2017-12-28 19:38:20] Client:Connect. client id: 36
+[2017-12-28 19:38:20] Client: Close.
+[2017-12-28 19:38:25] Client:Connect. client id: 37
+[2017-12-28 19:38:25] Client: Close.
+[2017-12-28 19:38:29] Client:Connect. client id: 38
+[2017-12-28 19:38:29] core_5a44d7b5a6977271109606
+[2017-12-28 19:38:29] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 2, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:38:29] Task#2 finished
+[2017-12-28 19:38:30] Client:Connect. client id: 39
+[2017-12-28 19:38:30] Client: Close.
+[2017-12-28 19:38:35] Client:Connect. client id: 40
+[2017-12-28 19:38:35] Client: Close.
+[2017-12-28 19:38:40] Client:Connect. client id: 41
+[2017-12-28 19:38:40] Client: Close.
+[2017-12-28 19:38:45] Client:Connect. client id: 42
+[2017-12-28 19:38:45] Client: Close.
+[2017-12-28 19:38:50] Client:Connect. client id: 43
+[2017-12-28 19:38:50] Client: Close.
+[2017-12-28 19:38:55] Client:Connect. client id: 44
+[2017-12-28 19:38:55] Client: Close.
+[2017-12-28 19:39:00] Client:Connect. client id: 45
+[2017-12-28 19:39:00] Client: Close.
+[2017-12-28 19:39:05] Client:Connect. client id: 46
+[2017-12-28 19:39:05] Client: Close.
+[2017-12-28 19:39:10] Client:Connect. client id: 47
+[2017-12-28 19:39:10] Client: Close.
+[2017-12-28 19:39:15] Client:Connect. client id: 48
+[2017-12-28 19:39:15] Client: Close.
+[2017-12-28 19:39:20] Client:Connect. client id: 49
+[2017-12-28 19:39:20] Client: Close.
+[2017-12-28 19:39:25] Client: Close.
+[2017-12-28 19:39:25] Client:Connect. client id: 50
+[2017-12-28 19:39:25] Client: Close.
+[2017-12-28 19:39:28] MasterPid=12943|Manager_pid=12944
+[2017-12-28 19:39:28] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:39:28] onManagerStart-12944
+[2017-12-28 19:39:30] Client:Connect. client id: 1
+[2017-12-28 19:39:31] Client: Close.
+[2017-12-28 19:39:35] Client:Connect. client id: 2
+[2017-12-28 19:39:35] core_5a44d7f72f788060702962
+[2017-12-28 19:39:35] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:39:35] Task#0 finished
+[2017-12-28 19:39:35] Client:Connect. client id: 3
+[2017-12-28 19:39:35] Client: Close.
+[2017-12-28 19:39:36] Client: Close.
+[2017-12-28 19:39:40] Client:Connect. client id: 4
+[2017-12-28 19:39:40] Client: Close.
+[2017-12-28 19:39:45] Client:Connect. client id: 5
+[2017-12-28 19:39:45] Client: Close.
+[2017-12-28 19:39:50] Client:Connect. client id: 6
+[2017-12-28 19:39:50] Client: Close.
+[2017-12-28 19:39:55] Client:Connect. client id: 7
+[2017-12-28 19:39:55] Client: Close.
+[2017-12-28 19:40:00] Client:Connect. client id: 8
+[2017-12-28 19:40:00] Client: Close.
+[2017-12-28 19:40:05] Client:Connect. client id: 9
+[2017-12-28 19:40:05] Client: Close.
+[2017-12-28 19:40:08] MasterPid=12998|Manager_pid=12999
+[2017-12-28 19:40:08] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:40:09] onManagerStart-12999
+[2017-12-28 19:40:10] Client:Connect. client id: 1
+[2017-12-28 19:40:10] Client: Close.
+[2017-12-28 19:40:11] Client:Connect. client id: 2
+[2017-12-28 19:40:12] core_5a44d81c02cd2656624847
+[2017-12-28 19:40:12] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:40:12] Task#0 finished
+[2017-12-28 19:40:13] Client: Close.
+[2017-12-28 19:40:15] Client:Connect. client id: 3
+[2017-12-28 19:40:15] Client: Close.
+[2017-12-28 19:40:20] Client:Connect. client id: 4
+[2017-12-28 19:40:20] Client: Close.
+[2017-12-28 19:40:25] Client:Connect. client id: 5
+[2017-12-28 19:40:25] Client: Close.
+[2017-12-28 19:40:30] Client:Connect. client id: 6
+[2017-12-28 19:40:30] Client: Close.
+[2017-12-28 19:40:35] Client:Connect. client id: 7
+[2017-12-28 19:40:35] Client: Close.
+[2017-12-28 19:40:40] Client:Connect. client id: 8
+[2017-12-28 19:40:40] Client: Close.
+[2017-12-28 19:40:45] Client:Connect. client id: 9
+[2017-12-28 19:40:45] Client: Close.
+[2017-12-28 19:40:49] MasterPid=13075|Manager_pid=13076
+[2017-12-28 19:40:49] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:40:49] onManagerStart-13076
+[2017-12-28 19:40:50] Client:Connect. client id: 1
+[2017-12-28 19:40:50] Client: Close.
+[2017-12-28 19:40:55] Client:Connect. client id: 2
+[2017-12-28 19:40:55] Client: Close.
+[2017-12-28 19:41:00] Client:Connect. client id: 3
+[2017-12-28 19:41:00] Client: Close.
+[2017-12-28 19:41:05] Client:Connect. client id: 4
+[2017-12-28 19:41:05] Client: Close.
+[2017-12-28 19:41:10] Client:Connect. client id: 5
+[2017-12-28 19:41:10] Client: Close.
+[2017-12-28 19:41:15] Client:Connect. client id: 6
+[2017-12-28 19:41:15] Client: Close.
+[2017-12-28 19:41:20] Client:Connect. client id: 7
+[2017-12-28 19:41:20] Client: Close.
+[2017-12-28 19:41:25] Client:Connect. client id: 8
+[2017-12-28 19:41:25] core_5a44d865473c0839708803
+[2017-12-28 19:41:25] Client:Connect. client id: 9
+[2017-12-28 19:41:25] Client: Close.
+[2017-12-28 19:41:25] Exception: 系统内部错误，请稍后重试！ in /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/components/ProxyAbstract.php:108
+Stack trace:
+#0 /home/xia/swoole/core/branches/v2.6.7/service/resources/ResourceAbstract.php(74): framework\components\ProxyAbstract::sendRequest(Object(service\message\common\Header), Object(service\message\contractor\ContractorAuthenticationRequest))
+#1 /home/xia/swoole/core/branches/v2.6.7/service/resources/sales/v1/getContractorCouponSendHistory.php(44): service\resources\ResourceAbstract->_initContractor(3, 'C2SxjXUUaHDbVFW...')
+#2 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(342): service\resources\sales\v1\getContractorCouponSendHistory->run('\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#3 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(190): framework\core\SOAServer->runAction(Object(service\message\common\Header), '\x08\xA1\x08(\x032\x10C2SxjXUU...')
+#4 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SOAServer.php(110): framework\core\SOAServer->handleRequest(Object(framework\core\SOARequest))
+#5 [internal function]: framework\core\SOAServer->onTask(Object(swoole_server), 0, 0, Object(framework\core\SOARequest))
+#6 /home/xia/swoole/core/branches/v2.6.7/vendor/lelaisoft/framework/core/SWServer.php(263): swoole_server->start()
+#7 /home/xia/swoole/core/branches/v2.6.7/swoole_core.php(29): framework\core\SWServer->serve()
+#8 {main}
+[2017-12-28 19:41:25] Task#0 finished
+[2017-12-28 19:41:26] Client: Close.
+[2017-12-28 19:41:30] Client:Connect. client id: 10
+[2017-12-28 19:41:30] Client: Close.
+[2017-12-28 19:41:35] Client:Connect. client id: 11
+[2017-12-28 19:41:35] Client: Close.
+[2017-12-28 19:41:40] Client:Connect. client id: 12
+[2017-12-28 19:41:40] Client: Close.
+[2017-12-28 19:41:45] Client:Connect. client id: 13
+[2017-12-28 19:41:45] Client: Close.
+[2017-12-28 19:41:50] Client:Connect. client id: 14
+[2017-12-28 19:41:50] Client: Close.
+[2017-12-28 19:41:55] Client:Connect. client id: 15
+[2017-12-28 19:41:55] Client: Close.
+[2017-12-28 19:42:00] Client:Connect. client id: 16
+[2017-12-28 19:42:00] Client: Close.
+[2017-12-28 19:42:05] Client:Connect. client id: 17
+[2017-12-28 19:42:05] Client: Close.
+[2017-12-28 19:42:10] Client:Connect. client id: 18
+[2017-12-28 19:42:10] Client: Close.
+[2017-12-28 19:42:15] Client:Connect. client id: 19
+[2017-12-28 19:42:15] Client: Close.
+[2017-12-28 19:42:20] Client:Connect. client id: 20
+[2017-12-28 19:42:20] Client: Close.
+[2017-12-28 19:42:25] Client:Connect. client id: 21
+[2017-12-28 19:42:25] Client: Close.
+[2017-12-28 19:42:30] Client:Connect. client id: 22
+[2017-12-28 19:42:30] Client: Close.
+[2017-12-28 19:42:35] Client:Connect. client id: 23
+[2017-12-28 19:42:35] Client: Close.
+[2017-12-28 19:42:40] Client:Connect. client id: 24
+[2017-12-28 19:42:40] Client: Close.
+[2017-12-28 19:42:45] Client:Connect. client id: 25
+[2017-12-28 19:42:45] Client: Close.
+[2017-12-28 19:42:50] Client:Connect. client id: 26
+[2017-12-28 19:42:50] Client: Close.
+[2017-12-28 19:42:55] Client:Connect. client id: 27
+[2017-12-28 19:42:55] Client: Close.
+[2017-12-28 19:43:00] Client:Connect. client id: 28
+[2017-12-28 19:43:00] Client: Close.
+[2017-12-28 19:43:05] Client:Connect. client id: 29
+[2017-12-28 19:43:05] Client: Close.
+[2017-12-28 19:43:10] Client:Connect. client id: 30
+[2017-12-28 19:43:10] Client: Close.
+[2017-12-28 19:43:15] Client:Connect. client id: 31
+[2017-12-28 19:43:15] Client: Close.
+[2017-12-28 19:43:20] Client:Connect. client id: 32
+[2017-12-28 19:43:20] Client: Close.
+[2017-12-28 19:43:25] Client:Connect. client id: 33
+[2017-12-28 19:43:25] Client: Close.
+[2017-12-28 19:43:30] Client:Connect. client id: 34
+[2017-12-28 19:43:30] Client: Close.
+[2017-12-28 19:43:35] Client:Connect. client id: 35
+[2017-12-28 19:43:35] Client: Close.
+[2017-12-28 19:43:40] Client:Connect. client id: 36
+[2017-12-28 19:43:40] Client: Close.
+[2017-12-28 19:43:45] Client:Connect. client id: 37
+[2017-12-28 19:43:45] Client: Close.
+[2017-12-28 19:43:50] Client:Connect. client id: 38
+[2017-12-28 19:43:50] Client: Close.
+[2017-12-28 19:43:55] Client:Connect. client id: 39
+[2017-12-28 19:43:55] Client: Close.
+[2017-12-28 19:44:00] Client:Connect. client id: 40
+[2017-12-28 19:44:00] Client: Close.
+[2017-12-28 19:44:05] Client:Connect. client id: 41
+[2017-12-28 19:44:05] Client: Close.
+[2017-12-28 19:44:10] Client:Connect. client id: 42
+[2017-12-28 19:44:10] Client: Close.
+[2017-12-28 19:44:15] Client:Connect. client id: 43
+[2017-12-28 19:44:15] Client: Close.
+[2017-12-28 19:44:20] Client:Connect. client id: 44
+[2017-12-28 19:44:20] Client: Close.
+[2017-12-28 19:44:25] Client:Connect. client id: 45
+[2017-12-28 19:44:25] Client: Close.
+[2017-12-28 19:44:29] Client:Connect. client id: 46
+[2017-12-28 19:44:29] core_5a44d91de4854513238184
+[2017-12-28 19:44:30] Task#1 finished
+[2017-12-28 19:44:30] Client:Connect. client id: 47
+[2017-12-28 19:44:30] Client: Close.
+[2017-12-28 19:44:31] Client: Close.
+[2017-12-28 19:44:35] Client:Connect. client id: 48
+[2017-12-28 19:44:35] Client: Close.
+[2017-12-28 19:44:40] Client:Connect. client id: 49
+[2017-12-28 19:44:40] Client: Close.
+[2017-12-28 19:44:45] Client:Connect. client id: 50
+[2017-12-28 19:44:45] Client: Close.
+[2017-12-28 19:44:50] Client:Connect. client id: 51
+[2017-12-28 19:44:50] Client: Close.
+[2017-12-28 19:44:55] Client:Connect. client id: 52
+[2017-12-28 19:44:55] Client: Close.
+[2017-12-28 19:45:00] Client:Connect. client id: 53
+[2017-12-28 19:45:00] Client: Close.
+[2017-12-28 19:45:05] Client:Connect. client id: 54
+[2017-12-28 19:45:05] Client: Close.
+[2017-12-28 19:45:10] Client:Connect. client id: 55
+[2017-12-28 19:45:10] Client: Close.
+[2017-12-28 19:45:15] Client:Connect. client id: 56
+[2017-12-28 19:45:15] Client: Close.
+[2017-12-28 19:45:20] Client:Connect. client id: 57
+[2017-12-28 19:45:20] Client: Close.
+[2017-12-28 19:45:25] Client:Connect. client id: 58
+[2017-12-28 19:45:25] Client: Close.
+[2017-12-28 19:45:30] Client:Connect. client id: 59
+[2017-12-28 19:45:30] Client: Close.
+[2017-12-28 19:45:35] Client:Connect. client id: 60
+[2017-12-28 19:45:35] Client: Close.
+[2017-12-28 19:45:40] Client:Connect. client id: 61
+[2017-12-28 19:45:40] Client: Close.
+[2017-12-28 19:45:45] Client:Connect. client id: 62
+[2017-12-28 19:45:45] Client: Close.
+[2017-12-28 19:45:50] Client:Connect. client id: 63
+[2017-12-28 19:45:50] Client: Close.
+[2017-12-28 19:45:55] Client:Connect. client id: 64
+[2017-12-28 19:45:55] Client: Close.
+[2017-12-28 19:46:00] Client:Connect. client id: 65
+[2017-12-28 19:46:00] Client: Close.
+[2017-12-28 19:46:05] Client:Connect. client id: 66
+[2017-12-28 19:46:05] Client: Close.
+[2017-12-28 19:46:10] Client:Connect. client id: 67
+[2017-12-28 19:46:10] Client: Close.
+[2017-12-28 19:46:15] Client:Connect. client id: 68
+[2017-12-28 19:46:15] Client: Close.
+[2017-12-28 19:46:20] Client:Connect. client id: 69
+[2017-12-28 19:46:20] Client: Close.
+[2017-12-28 19:46:25] Client:Connect. client id: 70
+[2017-12-28 19:46:25] Client: Close.
+[2017-12-28 19:46:30] Client:Connect. client id: 71
+[2017-12-28 19:46:30] Client: Close.
+[2017-12-28 19:46:35] Client:Connect. client id: 72
+[2017-12-28 19:46:35] Client: Close.
+[2017-12-28 19:46:40] Client:Connect. client id: 73
+[2017-12-28 19:46:40] Client: Close.
+[2017-12-28 19:46:45] Client:Connect. client id: 74
+[2017-12-28 19:46:45] Client: Close.
+[2017-12-28 19:46:50] Client:Connect. client id: 75
+[2017-12-28 19:46:50] Client: Close.
+[2017-12-28 19:46:55] Client:Connect. client id: 76
+[2017-12-28 19:46:55] Client: Close.
+[2017-12-28 19:47:00] Client:Connect. client id: 77
+[2017-12-28 19:47:00] Client: Close.
+[2017-12-28 19:47:05] Client:Connect. client id: 78
+[2017-12-28 19:47:05] Client: Close.
+[2017-12-28 19:47:10] Client:Connect. client id: 79
+[2017-12-28 19:47:10] Client: Close.
+[2017-12-28 19:47:15] Client:Connect. client id: 80
+[2017-12-28 19:47:15] Client: Close.
+[2017-12-28 19:47:20] Client:Connect. client id: 81
+[2017-12-28 19:47:20] Client: Close.
+[2017-12-28 19:47:25] Client:Connect. client id: 82
+[2017-12-28 19:47:25] Client: Close.
+[2017-12-28 19:47:30] Client:Connect. client id: 83
+[2017-12-28 19:47:30] Client: Close.
+[2017-12-28 19:47:35] Client:Connect. client id: 84
+[2017-12-28 19:47:35] Client: Close.
+[2017-12-28 19:47:40] Client:Connect. client id: 85
+[2017-12-28 19:47:40] Client: Close.
+[2017-12-28 19:47:45] Client:Connect. client id: 86
+[2017-12-28 19:47:45] Client: Close.
+[2017-12-28 19:47:50] Client:Connect. client id: 87
+[2017-12-28 19:47:50] Client: Close.
+[2017-12-28 19:47:55] Client:Connect. client id: 88
+[2017-12-28 19:47:55] Client: Close.
+[2017-12-28 19:48:00] Client:Connect. client id: 89
+[2017-12-28 19:48:00] Client: Close.
+[2017-12-28 19:48:05] Client:Connect. client id: 90
+[2017-12-28 19:48:05] Client: Close.
+[2017-12-28 19:48:10] Client:Connect. client id: 91
+[2017-12-28 19:48:10] Client: Close.
+[2017-12-28 19:48:15] Client:Connect. client id: 92
+[2017-12-28 19:48:15] Client: Close.
+[2017-12-28 19:48:20] Client:Connect. client id: 93
+[2017-12-28 19:48:20] Client: Close.
+[2017-12-28 19:48:25] Client:Connect. client id: 94
+[2017-12-28 19:48:25] Client: Close.
+[2017-12-28 19:48:30] Client:Connect. client id: 95
+[2017-12-28 19:48:30] Client: Close.
+[2017-12-28 19:48:35] Client:Connect. client id: 96
+[2017-12-28 19:48:35] Client: Close.
+[2017-12-28 19:48:40] Client:Connect. client id: 97
+[2017-12-28 19:48:40] Client: Close.
+[2017-12-28 19:48:45] Client:Connect. client id: 98
+[2017-12-28 19:48:45] Client: Close.
+[2017-12-28 19:48:50] Client:Connect. client id: 99
+[2017-12-28 19:48:50] Client: Close.
+[2017-12-28 19:48:55] Client:Connect. client id: 100
+[2017-12-28 19:48:55] Client: Close.
+[2017-12-28 19:49:00] Client:Connect. client id: 101
+[2017-12-28 19:49:00] Client: Close.
+[2017-12-28 19:49:05] Client:Connect. client id: 102
+[2017-12-28 19:49:05] Client: Close.
+[2017-12-28 19:49:10] Client:Connect. client id: 103
+[2017-12-28 19:49:10] Client: Close.
+[2017-12-28 19:49:15] Client:Connect. client id: 104
+[2017-12-28 19:49:15] Client: Close.
+[2017-12-28 19:49:20] Client:Connect. client id: 105
+[2017-12-28 19:49:20] Client: Close.
+[2017-12-28 19:49:25] Client:Connect. client id: 106
+[2017-12-28 19:49:25] Client: Close.
+[2017-12-28 19:49:30] Client:Connect. client id: 107
+[2017-12-28 19:49:30] Client: Close.
+[2017-12-28 19:49:35] Client:Connect. client id: 108
+[2017-12-28 19:49:35] Client: Close.
+[2017-12-28 19:49:40] Client:Connect. client id: 109
+[2017-12-28 19:49:40] Client: Close.
+[2017-12-28 19:49:45] Client:Connect. client id: 110
+[2017-12-28 19:49:45] Client: Close.
+[2017-12-28 19:49:50] Client:Connect. client id: 111
+[2017-12-28 19:49:50] Client: Close.
+[2017-12-28 19:49:55] Client:Connect. client id: 112
+[2017-12-28 19:49:55] Client: Close.
+[2017-12-28 19:50:00] Client:Connect. client id: 113
+[2017-12-28 19:50:00] Client: Close.
+[2017-12-28 19:50:05] Client:Connect. client id: 114
+[2017-12-28 19:50:05] Client: Close.
+[2017-12-28 19:50:10] Client:Connect. client id: 115
+[2017-12-28 19:50:10] Client: Close.
+[2017-12-28 19:50:15] Client:Connect. client id: 116
+[2017-12-28 19:50:15] Client: Close.
+[2017-12-28 19:50:20] Client:Connect. client id: 117
+[2017-12-28 19:50:20] Client: Close.
+[2017-12-28 19:50:25] Client:Connect. client id: 118
+[2017-12-28 19:50:25] Client: Close.
+[2017-12-28 19:50:30] Client:Connect. client id: 119
+[2017-12-28 19:50:30] Client: Close.
+[2017-12-28 19:50:35] Client:Connect. client id: 120
+[2017-12-28 19:50:35] Client: Close.
+[2017-12-28 19:50:40] Client:Connect. client id: 121
+[2017-12-28 19:50:40] Client: Close.
+[2017-12-28 19:50:45] Client:Connect. client id: 122
+[2017-12-28 19:50:45] Client: Close.
+[2017-12-28 19:50:50] Client:Connect. client id: 123
+[2017-12-28 19:50:50] Client: Close.
+[2017-12-28 19:50:55] Client:Connect. client id: 124
+[2017-12-28 19:50:55] Client: Close.
+[2017-12-28 19:51:00] Client:Connect. client id: 125
+[2017-12-28 19:51:00] Client: Close.
+[2017-12-28 19:51:05] Client:Connect. client id: 126
+[2017-12-28 19:51:05] Client: Close.
+[2017-12-28 19:51:10] Client:Connect. client id: 127
+[2017-12-28 19:51:10] Client: Close.
+[2017-12-28 19:51:15] Client:Connect. client id: 128
+[2017-12-28 19:51:15] Client: Close.
+[2017-12-28 19:51:15] MasterPid=13678|Manager_pid=13679
+[2017-12-28 19:51:15] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:51:15] onManagerStart-13679
+[2017-12-28 19:51:20] Client:Connect. client id: 1
+[2017-12-28 19:51:20] Client: Close.
+[2017-12-28 19:51:25] Client:Connect. client id: 2
+[2017-12-28 19:51:25] Client: Close.
+[2017-12-28 19:51:30] Client:Connect. client id: 3
+[2017-12-28 19:51:30] Client: Close.
+[2017-12-28 19:51:35] Client:Connect. client id: 4
+[2017-12-28 19:51:35] Client: Close.
+[2017-12-28 19:51:40] Client:Connect. client id: 5
+[2017-12-28 19:51:40] Client: Close.
+[2017-12-28 19:51:45] Client:Connect. client id: 6
+[2017-12-28 19:51:45] Client: Close.
+[2017-12-28 19:51:50] Client:Connect. client id: 7
+[2017-12-28 19:51:50] Client: Close.
+[2017-12-28 19:51:55] Client:Connect. client id: 8
+[2017-12-28 19:51:55] Client: Close.
+[2017-12-28 19:52:00] Client:Connect. client id: 9
+[2017-12-28 19:52:00] Client: Close.
+[2017-12-28 19:52:05] Client:Connect. client id: 10
+[2017-12-28 19:52:05] Client: Close.
+[2017-12-28 19:52:10] Client:Connect. client id: 11
+[2017-12-28 19:52:10] Client: Close.
+[2017-12-28 19:52:15] Client:Connect. client id: 12
+[2017-12-28 19:52:15] Client: Close.
+[2017-12-28 19:52:20] Client:Connect. client id: 13
+[2017-12-28 19:52:20] Client: Close.
+[2017-12-28 19:52:25] Client:Connect. client id: 14
+[2017-12-28 19:52:25] Client: Close.
+[2017-12-28 19:52:30] Client:Connect. client id: 15
+[2017-12-28 19:52:30] Client: Close.
+[2017-12-28 19:52:35] MasterPid=14116|Manager_pid=14119
+[2017-12-28 19:52:35] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:52:35] Client:Connect. client id: 1
+[2017-12-28 19:52:35] Client: Close.
+[2017-12-28 19:52:35] onManagerStart-14119
+[2017-12-28 19:52:40] MasterPid=14214|Manager_pid=14218
+[2017-12-28 19:52:40] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:52:40] onManagerStart-14218
+[2017-12-28 19:52:40] Client:Connect. client id: 1
+[2017-12-28 19:52:40] Client: Close.
+[2017-12-28 19:52:45] Client:Connect. client id: 2
+[2017-12-28 19:52:45] Client: Close.
+[2017-12-28 19:52:46] Client:Connect. client id: 3
+[2017-12-28 19:52:46] core_5a44db0e5e83d875550675
+[2017-12-28 19:52:46] Task#0 finished
+[2017-12-28 19:52:47] Client: Close.
+[2017-12-28 19:52:50] Client:Connect. client id: 4
+[2017-12-28 19:52:50] Client: Close.
+[2017-12-28 19:52:55] Client:Connect. client id: 5
+[2017-12-28 19:52:55] Client: Close.
+[2017-12-28 19:53:00] Client:Connect. client id: 6
+[2017-12-28 19:53:00] Client: Close.
+[2017-12-28 19:53:05] Client:Connect. client id: 7
+[2017-12-28 19:53:05] Client: Close.
+[2017-12-28 19:53:08] MasterPid=14361|Manager_pid=14362
+[2017-12-28 19:53:08] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:53:08] onManagerStart-14362
+[2017-12-28 19:53:10] Client:Connect. client id: 1
+[2017-12-28 19:53:10] Client: Close.
+[2017-12-28 19:53:15] Client:Connect. client id: 2
+[2017-12-28 19:53:15] Client: Close.
+[2017-12-28 19:53:20] Client:Connect. client id: 3
+[2017-12-28 19:53:20] Client: Close.
+[2017-12-28 19:53:25] Client:Connect. client id: 4
+[2017-12-28 19:53:25] Client: Close.
+[2017-12-28 19:53:30] Client:Connect. client id: 5
+[2017-12-28 19:53:30] Client: Close.
+[2017-12-28 19:53:35] Client:Connect. client id: 6
+[2017-12-28 19:53:35] Client: Close.
+[2017-12-28 19:53:40] Client:Connect. client id: 7
+[2017-12-28 19:53:40] Client: Close.
+[2017-12-28 19:53:45] Client:Connect. client id: 8
+[2017-12-28 19:53:45] Client: Close.
+[2017-12-28 19:53:50] Client:Connect. client id: 9
+[2017-12-28 19:53:50] Client: Close.
+[2017-12-28 19:53:55] Client:Connect. client id: 10
+[2017-12-28 19:53:55] Client: Close.
+[2017-12-28 19:54:00] Client:Connect. client id: 11
+[2017-12-28 19:54:00] Client: Close.
+[2017-12-28 19:54:05] Client:Connect. client id: 12
+[2017-12-28 19:54:05] Client: Close.
+[2017-12-28 19:54:10] Client:Connect. client id: 13
+[2017-12-28 19:54:10] Client: Close.
+[2017-12-28 19:54:15] Client:Connect. client id: 14
+[2017-12-28 19:54:15] Client: Close.
+[2017-12-28 19:54:20] Client:Connect. client id: 15
+[2017-12-28 19:54:20] Client: Close.
+[2017-12-28 19:54:25] Client:Connect. client id: 16
+[2017-12-28 19:54:25] Client: Close.
+[2017-12-28 19:54:30] Client:Connect. client id: 17
+[2017-12-28 19:54:30] Client: Close.
+[2017-12-28 19:54:35] Client:Connect. client id: 18
+[2017-12-28 19:54:35] Client: Close.
+[2017-12-28 19:54:40] Client:Connect. client id: 19
+[2017-12-28 19:54:40] Client: Close.
+[2017-12-28 19:54:45] Client:Connect. client id: 20
+[2017-12-28 19:54:45] Client: Close.
+[2017-12-28 19:54:50] Client:Connect. client id: 21
+[2017-12-28 19:54:50] Client: Close.
+[2017-12-28 19:54:55] Client:Connect. client id: 22
+[2017-12-28 19:54:55] Client: Close.
+[2017-12-28 19:55:00] Client:Connect. client id: 23
+[2017-12-28 19:55:00] Client: Close.
+[2017-12-28 19:55:05] Client:Connect. client id: 24
+[2017-12-28 19:55:05] Client: Close.
+[2017-12-28 19:55:10] Client:Connect. client id: 25
+[2017-12-28 19:55:10] Client: Close.
+[2017-12-28 19:55:15] Client:Connect. client id: 26
+[2017-12-28 19:55:15] Client: Close.
+[2017-12-28 19:55:20] Client:Connect. client id: 27
+[2017-12-28 19:55:20] Client: Close.
+[2017-12-28 19:55:25] Client:Connect. client id: 28
+[2017-12-28 19:55:25] Client: Close.
+[2017-12-28 19:56:04] MasterPid=14627|Manager_pid=14628
+[2017-12-28 19:56:04] Server: start.Swoole version is [1.8.4]
+[2017-12-28 19:56:04] onManagerStart-14628
+[2017-12-28 19:56:05] Client:Connect. client id: 1
+[2017-12-28 19:56:05] Client: Close.
+[2017-12-28 19:56:05] Client:Connect. client id: 3
+[2017-12-28 19:56:05] Client: Close.
+[2017-12-28 19:56:05] Client:Connect. client id: 2
+[2017-12-28 19:56:05] Client: Close.
+[2017-12-28 19:56:10] Client:Connect. client id: 4
+[2017-12-28 19:56:10] Client: Close.
+[2017-12-28 19:56:15] Client:Connect. client id: 5
+[2017-12-28 19:56:15] Client: Close.
+[2017-12-28 19:56:20] Client:Connect. client id: 6
+[2017-12-28 19:56:20] Client: Close.
+[2017-12-28 19:56:24] Client:Connect. client id: 7
+[2017-12-28 19:56:24] core_5a44dbe80fa2b830360205
+[2017-12-28 19:56:24] Task#0 finished
+[2017-12-28 19:56:25] Client:Connect. client id: 8
+[2017-12-28 19:56:25] Client: Close.
+[2017-12-28 19:56:25] Client: Close.
+[2017-12-28 19:56:30] Client:Connect. client id: 9
+[2017-12-28 19:56:30] Client: Close.
+[2017-12-28 19:56:35] Client:Connect. client id: 10
+[2017-12-28 19:56:35] Client: Close.
+[2017-12-28 19:56:40] Client:Connect. client id: 11
+[2017-12-28 19:56:40] Client: Close.
+[2017-12-28 19:56:43] Worker stop:2
+[2017-12-28 19:56:43] Worker stop:5
+[2017-12-28 19:56:43] Worker stop:3
+[2017-12-28 19:56:43] Worker stop:4
+[2017-12-28 19:56:43] onManagerStop
